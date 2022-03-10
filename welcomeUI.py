@@ -153,7 +153,7 @@ class Ui_Welcome(object):
         self.ui = Ui_Q1(listener=self.listener, keboardfetureextractor=self.kfi)
         self.ui.setupUi(self.window)
         self.window.show()
-        self.listener.start()
+        self.listener.run()
 
 if __name__ == "__main__":
     import sys
